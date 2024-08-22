@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "nuxt": "^3.12.4",
+    "vue": "latest",
+    "vue3-google-login": "^2.0.32"
+  },
+  "devDependencies": {
+    "@sidebase/nuxt-auth": "^0.8.2"
+  }
+}
